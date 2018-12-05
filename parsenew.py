@@ -15,7 +15,7 @@ def parse_credentials():
 
     with open('credentials.txt', 'r') as cr_file:
         for line in cr_file:
-            if not line.startswith('#'):
+            if not line.strip().startswith('#'):
                 if line.strip():
                     k, v = line.strip().split('$$')
                     credentials[k.strip()] = v.strip()
