@@ -30,6 +30,9 @@ file credentials.txt is self-explanitory
 
 для запуска на сервере без gui раскомментить 34 строчку
 
+Для запуска скрипта: 
+python parsenew.py
+
 
 Чек-лист проекта:
 
