@@ -4,6 +4,7 @@ script for parsing and uploading catalogs
 Prerequisites:
 
 google chrome ( yes, itś possible to install chrome on server os)
+https://blog.softhints.com/ubuntu-16-04-server-install-headless-google-chrome/
 
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_i386.deb
 sudo dpkg -i google-chrome-stable_current_i386.deb
